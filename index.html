@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Dev LC - Landing Page LouisVuitton</title>
+</head>
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-3" id="main-header">
+        <div class="container">
+            <h1 class="navbar-brand m-0 text-uppercase fw-bold">Louis Vuitton</h1>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navigationMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="navigationMenu">
+                <ul class="nav nav-pills d-block d-md-flex">
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link text-dark" href="#contactSection">Fale conosco</a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link text-dark" href="#aboutSection">
+                            <i class="bi bi-heart"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link text-dark" href="#">
+                            <i class="bi bi-person"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item fw-bold">
+                        <a class="nav-link text-dark" href="#collectionSection">
+                            <i class="bi bi-bag"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#main-header" data-bs-smooth-scroll="true">
+        <section id="aboutSection">
+            <div class="carousel slide" data-bs-ride="carousel" id="mainCarousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img class="img-fluid" src="./images/450_1000.jpg" alt="Louis Vuitton Image 1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="img-fluid" src="./images/estilista-louis-vuitton-190320-1024x768-654x491.jpg" alt="Louis Vuitton Image 2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img class="img-fluid" src="./images/Louis_Vuitton_-_Arremate_Arte.jpg" alt="Louis Vuitton Image 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#mainCarousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#mainCarousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+            <div class="about-section pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="./images/louis-vuitton-fachada.webp" class="d-block w-100 rounded" alt="Louis Vuitton Storefront">
+                        </div>
+                        <div class="col-md-7 mt-3 mt-md-0">
+                            <h2 class="section-title">Sobre a <span class="text-highlight">marca</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste laborum rem magni minima, tempore dolorem blanditiis culpa possimus voluptates provident modi officiis aperiam. Sit natus suscipit odit deleniti illo porro.</p>
+                            <h3 class="section-subtitle">O jeito único de ser <span class="text-highlight">Louis Vuitton</span></h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium suscipit quisquam deleniti, ipsum facere ab itaque nisi, esse quasi ea cum amet delectus sed sunt quod, blanditiis vero ut tenetur?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="collectionSection" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Coleção de <span class="text-highlight">Vestuário</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/louis-vuitton--M_PRECOSS25_DL1_MM_Oct24_DI3.webp" class="d-block w-100 rounded mb-2" alt="Louis Vuitton Masculino">
+                        <h3 class="section-subtitle text-highlight fs-4">
+                            <i class="bi bi-person-standing"></i>
+                            Masculino
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat saepe odit illum eos numquam vitae, perferendis rerum sint magni harum maxime ex aperiam suscipit? Quam amet id nihil ipsam officiis?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/louis-vuitton--Women_MM_New_For Women_NVF Inside Out_Collection_Aug24_DI3.webp" class="d-block w-100 rounded mb-2" alt="Louis Vuitton Feminino">
+                        <h3 class="section-subtitle text-highlight fs-4">
+                            <i class="bi bi-person-standing-dress"></i>
+                            Feminino
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat saepe odit illum eos numquam vitae, perferendis rerum sint magni harum maxime ex aperiam suscipit? Quam amet id nihil ipsam officiis?</p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/louis-vuitton--WATCHES_MM_NOVELTIES_SEP24_DI3.jpg" class="d-block w-100 rounded mb-2" alt="Louis Vuitton Relógios">
+                        <h3 class="section-subtitle text-highlight fs-4">
+                            <i class="bi bi-watch"></i>
+                            Relógios
+                        </h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat saepe odit illum eos numquam vitae, perferendis rerum sint magni harum maxime ex aperiam suscipit? Quam amet id nihil ipsam officiis?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+        <!-- Neste Espaço ira os tab -->
+        <section id="colecao" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center mb-5">Nossa <span class="text-colorad">Coleção</span></h2>
+                </div>
+                <div class="row">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-colecao">
+                            <button data-bs-toggle="tab" data-bs-target="#bolsas" type="button" class="fw-bold text-start nav-link text-colorad active">Bolsas</button>
+                            <button data-bs-toggle="tab" data-bs-target="#roupas" type="button" class="fw-bold text-start nav-link text-colorad">Roupas</button>
+                            <button data-bs-toggle="tab" data-bs-target="#sapatos" type="button" class="fw-bold text-start nav-link text-colorad">Sapatos</button>
+                            <button data-bs-toggle="tab" data-bs-target="#acessorios" type="button" class="fw-bold text-start nav-link text-colorad">Acessórios</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <!-- Bolsas -->
+                            <div class="tab-pane active" id="bolsas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/louis-vuitton-bolsa1.avif" alt="Bolsa Neverfull MM">
+                                        <h5 class="text-colorad fw-bold mt-2">Bolsa Neverfull MM</h5>
+                                        <p>Bolsa icônica em canvas Monogram.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/louis-vuitton-bolsa2.avif" alt="Bolsa Speedy 25">
+                                        <h5 class="text-colorad fw-bold mt-2">Bolsa Speedy 25</h5>
+                                        <p>Compacta e prática, perfeita para o dia a dia.</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Roupas -->
+                            <div class="tab-pane" id="roupas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/louis-vuitton-camiseta1.avif" alt="Camiseta LV Monogram">
+                                        <h5 class="text-colorad fw-bold mt-2">Camiseta LV Monogram</h5>
+                                        <p>Camiseta clássica com o padrão Monogram LV.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/louis-vuitton-camiseta2.avif" alt="Jaqueta em Couro">
+                                        <h5 class="text-colorad fw-bold mt-2">Jaqueta em Couro</h5>
+                                        <p>Elegante e durável, feita em couro de alta qualidade.</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Sapatos -->
+                            <div class="tab-pane" id="sapatos">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/louis-vuitton-sapato1.avif" alt="Tênis LV Trainer">
+                                        <h5 class="text-colorad fw-bold mt-2">Tênis LV Trainer</h5>
+                                        <p>Tênis casual com o logo LV bordado.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/louis-vuitton-sapato2.avif" alt="Mocassim Monte Carlo">
+                                        <h5 class="text-colorad fw-bold mt-2">Mocassim Monte Carlo</h5>
+                                        <p>Design clássico com detalhe em metal LV.</p>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Acessórios -->
+                            <div class="tab-pane" id="acessorios">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/louis-vuitton-acessorio1.avif" alt="Lenço Silk Square">
+                                        <h5 class="text-colorad fw-bold mt-2">Lenço Silk Square</h5>
+                                        <p>Lenço em seda com o icônico Monogram.</p>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img class="d-block w-100" src="./images/louis-vuitton-acessorio2.avif" alt="Óculos de Sol">
+                                        <h5 class="text-colorad fw-bold mt-2">Óculos de Sol</h5>
+                                        <p>Óculos com design elegante e detalhes LV.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Neste Espaço ira os tab-->
+
+        <section id="faleConosco" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Fale <span class="text-colorad">Conosco</span></h2>
+                </div>
+                <div class="row">
+                    <!-- Formulário de Contato -->
+                    <div class="col-md-7 mb-5">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nome" class="form-label fw-bold text-colorad">Seu nome: </label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colorad">Seu email: </label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefone" class="form-label fw-bold text-colorad">Seu telefone (opcional): </label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensagem" class="form-label fw-bold text-colorad">Sua mensagem: </label>
+                                <textarea id="mensagem" class="form-control" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    
+                    <!-- Informações de Contato -->
+                    <div class="col-md-5">
+                        <!-- Redes Sociais -->
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colorad">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links d-flex list-unstyled">
+                                <li class="fs-5">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="bi bi-facebook text-colorad"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="bi bi-instagram text-colorad"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-3">
+                                    <a href="#" class="text-decoration-none">
+                                        <i class="bi bi-whatsapp text-colorad"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <!-- Endereço -->
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colorad">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço    
+                            </h3>
+                            <p>Rua LV, Jardins, São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>        
+    </div>
+
+    <script src="./lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

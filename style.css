@@ -1,0 +1,80 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.navbar {
+    background-color: #000;
+    /* Preto elegante para a marca de luxo */
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #f5f5f5;
+    color: #000;
+    /* Contraste para o destaque da aba ativa */
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #f5f5f5;
+    /* Tom neutro sofisticado */
+}
+
+.navbar-toggler {
+    background-color: #d3b486;
+    /* Dourado suave */
+}
+
+img {
+    width: 100%;
+}
+
+.section-title {
+    font-family: "Garamond", serif;
+    /* Fonte clássica e sofisticada */
+    color: #d3b486;
+}
+
+#sobreOhRestaurante,
+#cardapio {
+    background-color: #f8f8f8;
+    /* Tom claro para as seções de conteúdo */
+}
+
+.text-colorad {
+    color: #d3b486;
+    /* Dourado LV */
+}
+
+.nav-cardapio .nav-link.active,
+#faleConosco button {
+    background-color: #000;
+    /* Fundo preto para botões e abas */
+    color: #f5f5f5;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #d3b486;
+    /* Dourado ao passar o cursor */
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #d3b486;
+}
+
+.social-links a:hover {
+    color: #000;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
